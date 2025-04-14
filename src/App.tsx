@@ -67,7 +67,7 @@ const App: React.FC = () => {
   const [lastResumeFile, setLastResumeFile] = useState<File | null>(null);
 
   // API base URL - change this based on your backend deployment
-  const API_BASE_URL = 'http://localhost:8000';
+  const API_BASE_URL = 'https://job-matcher-iomw.onrender.com';
 
   // Handle tab change
   const handleTabChange = (event: React.SyntheticEvent, newValue: number) => {
